@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
-<suite name="API Tests Suite" parallel="tests" thread-count="50">
+<suite name="API Tests Suite" parallel="tests" thread-count="2">
     <test name="Product API Test">
         <classes>
             <class name="com.example.task2.runner.ProductAPITestRunner" />
-        </classes>
-    </test>
-    <test name="Delete Product Test">
-        <classes>
             <class name="com.example.task2.runner.DeleteProductTestRunner" />
         </classes>
     </test>
+<!--    <test name="Delete Product Test">-->
+<!--        <classes>-->
+<!--            <class name="com.example.task2.runner.DeleteProductTestRunner" />-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

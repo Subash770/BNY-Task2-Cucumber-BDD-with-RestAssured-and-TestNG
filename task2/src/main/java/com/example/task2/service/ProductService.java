@@ -63,7 +63,7 @@ public class ProductService {
             productRepository.deleteById(id);
             return true;
         }
-        return false; // This should trigger "Product not found" in the controller
+        return false;
     }
 
 
